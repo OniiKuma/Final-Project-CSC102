@@ -1,14 +1,65 @@
+<!--This is an HTML document-->
 <!DOCTYPE html>
+<!--This is the start of the HTML document-->
 <html>
-    <title>Home Page</title>
-<body>
-    <h1>My Home Page</h1>
-    <p>This will be my landing page that users see first!</p>
-    <h2>Menu</h2>
-    <a href="index.html">Home Page</a><br>
-    <a href="UATSpacePage.html">UAT Space Page</a><br>
-    <a href="BoardObjectives.html">Board Objectives</a><br>
-    <a href="SIP.html">SIP Page</a>
-</body>
-</html>
+<!--This is the start of the head section-->
 
+<head>
+    <!--This is the title of the tab-->
+    <title>Home Page</title>
+    <!--This is the start of our css-->
+    <style>
+        /*Reference the theme.css file to get the theme colors*/
+        @import url("theme.css");
+    </style>
+</head>
+<!--This is the start of the body section-->
+
+<body>
+    <!--This is the start of hour header-->
+    <header>
+        <!--This is an h1 tag-->
+        <h1>Welcome to My Home Page</h1>
+        <!--This is our center aligned name with an h3 head-->
+        <h3 style="text-align: center;">Andrew Dames Jr.</h3>
+        <!--This is our center aligned major with an h3 head-->
+        <h3 style="margin-top: -20px; text-align: center;">Advancing Computer Science</h3>
+        <!--This is theend of our header section-->
+    </header>
+    <!--This is the beginning of our nav section-->
+    <nav style="background-color: rgb(142, 149, 255); padding: 5px; margin-left: -10px; margin-right: -8px;">
+        <!--This is the content in our nav menu-->
+        <a style=" margin-left: 5px; text-decoration: none;" href="index.html">Home Page</a> &nbsp;
+        <a style="text-decoration: none;" href="UATSpacePage.html">UAT Space Page</a> &nbsp;
+        <a style="text-decoration: none;" href="BoardObjectives.html">Board Objectives</a> &nbsp;
+        <a style="text-decoration: none;" href="SIP.html">SIP Page</a><br>
+        <!--This is the end of our nav section-->
+    </nav>
+    <!--Add a line break for space-->
+    <br>
+    <!--This starts the main section-->
+    <main style="text-align: center;">
+        <p style="text-align: left;">This is my home page which features myself and my favorite quote from my favorite rapper, Juice WRLD.</p>
+        <!--Add an image of myself-->
+        <img src="C:\Users\ANDDAMES\Documents\csc 102 programming\Final Project\Snapchat-1422858503.jpg" alt="ME">
+        <!--Add our quote-->
+        <p>“I just walked into the building. Look like a million, but I’m worth more than a million.”<br>– Juice WRLD
+        </p>
+    <!--This is the end of our main section-->
+    </main>
+    <!--Add a horizontal rule to break up the page-->
+    <br>
+    <hr>
+    <!--Add a footer tag-->
+    <footer>
+        <p>School: <a class="school" href="https://www.uat.edu/">University of Advancing Technology</a><br>
+        Address: 2625 W Baseline Rd, Tempe, AZ 85283
+        </p>
+        <p>Created by: <a href="mailto:anddames.uat.edu">Andrew Dames Jr.</a></p>
+        <!--This is the end of the footer section-->
+    </footer>
+    <!--This is the end of the body section-->
+</body>
+<!--This is the end of the HTML document-->
+
+</html>

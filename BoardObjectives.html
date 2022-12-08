@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html>
+
+<head>
     <title>Board Objectives</title>
+    <!--This is the start of our css section-->
+    <style>
+        /*Reference the theme.css file to get the theme colors*/
+        @import url("theme.css");
+    </style>
+</head>
+
 <body>
-    <h1>My Board Objectives</h1>
-    <p>This will be the page for my board objectives!</p>
-    <h2>Menu</h2>
-    <a href="index.html">Home Page</a><br>
-    <a href="UATSpacePage.html">UAT Space Page</a><br>
-    <a href="BoardObjectives.html">Board Objectives</a><br>
-    <a href="SIP.html">SIP Page</a>
+    <!--This is the start of hour header-->
+    <header>
+        <!--This is an h1 tag-->
+        <h1>Welcome to Boards and Objectives Page</h1>
+        <!--This is our center aligned name with an h3 head-->
+        <h3 style="text-align: center;">Andrew Dames Jr.</h3>
+        <!--This is our center aligned major with an h3 head-->
+        <h3 style="margin-top: -20px; text-align: center;">Advancing Computer Science</h3>
+        <!--This is theend of our header section-->
+    </header>
+    <!--This is the beginning of our nav section-->
+    <nav style="background-color: rgb(142, 149, 255); padding: 5px; margin-left: -10px; margin-right: -8px;">
+        <!--This is the content in our nav menu-->
+        <a style=" margin-left: 5px; text-decoration: none;" href="index.html">Home Page</a> &nbsp;
+        <a style="text-decoration: none;" href="UATSpacePage.html">UAT Space Page</a> &nbsp;
+        <a style="text-decoration: none;" href="BoardObjectives.html">Board Objectives</a> &nbsp;
+        <a style="text-decoration: none;" href="SIP.html">SIP Page</a><br>
+        <!--This is the end of our nav section-->
+    </nav>
+    <!--Add a line break for space-->
+    <br>
+    <!--This starts the main section-->
+    <main>
+        <p style="font-size: large; font-family: Arial, Helvetica, sans-serif;">As a student of UAT hoping to getting a Bachelor's degree in Advancing Computer Science, there are some objectives I must complete. These objectives are detailed below.
+        </p>
+        <h3>ADVANCING COMPUTER SCIENCE DEGREE OBJECTIVES</h3>
+        <p>
+        <!--Add the list of objectives using the ol tag-->
+        <!--The li tag specifies the items in the list-->
+        <ol style="font-size: large;">
+            <li>Follow a software development process to analyze a problem and to design, build and test software
+                solutions.
+            </li>
+            <li>Demonstrate software development skills using more than one programming language and development
+                environment.</li>
+            <li>Implement data-driven solutions.</li>
+            <li>Design and implement software solutions for mobile devices, embedded systems and/or multiple platforms.
+            </li>
+            <li>Document the planning and development of software applications using industry standard tools, techniques
+                and
+                processes.</li>
+            <li>Within software solutions describe, implement and analyze data structure techniques such as lists,
+                trees,
+                hash tables and
+                graphs, along with sorting and searching algorithms.</li>
+        <!--This is the end of the list-->
+        </ol>
+        </p>
+        <!--This is the end of our main section-->
+    </main>
+    <!--Add a horizontal rule to break up the page-->
+    <br>
+    <hr>
+    <!--Add a footer tag-->
+    <footer>
+        <p>School: <a class="school" href="https://www.uat.edu/">University of Advancing Technology</a><br>
+            Address: 2625 W Baseline Rd, Tempe, AZ 85283
+        </p>
+        <p>Created by: <a href="mailto:anddames.uat.edu">Andrew Dames Jr.</a></p>
+        <!--This is the end of the footer section-->
+    </footer>
 </body>
+
 </html>

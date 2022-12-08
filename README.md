@@ -1,2 +1,2 @@
-# Final-Project-CSC102
-This is the final project for my CSC102 - Introduction to Programming
+# SpaceProgramSample
+CSC102 Code Sample based on UAT's Space Program
